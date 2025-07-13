@@ -38,3 +38,6 @@ target-version = ["py310"]
 [tool.ruff]
 line-length = 88
 extend-select = ["I"]   # sort imports
+
+[tool.ruff.lint]
+extend-select = ["I"]   # ativa import-sorting
