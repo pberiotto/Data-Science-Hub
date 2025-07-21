@@ -1,3 +1,4 @@
-from .models.base import BaseModel  # noqa: F401
+from .models.base import BaseModel
+from .models.logistic_regression import LogisticRegression
 
-__all__ = ["BaseModel"]
+__all__ = ["BaseModel", "LogisticRegression"]
